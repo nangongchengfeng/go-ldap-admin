@@ -28,6 +28,7 @@
 - [🏊 在线体验](#-%E5%9C%A8%E7%BA%BF%E4%BD%93%E9%AA%8C)
 - [👨‍💻 项目地址](#-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80)
 - [🔗 文档快链](#-%E6%96%87%E6%A1%A3%E5%BF%AB%E9%93%BE)
+- [🤝 赞助商](#-%E8%B5%9E%E5%8A%A9%E5%95%86)
 - [🥰 感谢](#-%E6%84%9F%E8%B0%A2)
 - [🤗 另外](#-%E5%8F%A6%E5%A4%96)
 - [🤑 捐赠](#-%E6%8D%90%E8%B5%A0)
@@ -47,18 +48,20 @@
 
 提供在线体验地址如下：
 
-- 地址：[http://demo-go-ldap-admin.eryajf.net](http://demo-go-ldap-admin.eryajf.net)
+- 地址：[http://61.171.114.86:8888](http://61.171.114.86:8888)
 - 登陆信息：admin/123456
 
-在线环境可能不稳，如果遇到访问异常，或者数据错乱，请联系我进行修复。请勿填写个人敏感信息。
+> 在线环境可能不稳，如果遇到访问异常，或者数据错乱，请联系我进行修复。请勿填写个人敏感信息。
+
 
 **页面功能概览：**
 
-|    ![登录页](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165411.png)    | ![首页](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165545.png)     |
-| :----------------------------------------------------------------------------------: | -------------------------------------------------------------------------------- |
-|   ![用户管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165623.png)   | ![分组管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165701.png) |
-| ![字段关系管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165853.png) | ![菜单管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165954.png) |
-|   ![接口管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_170015.png)   | ![操作日志](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_170035.png) |
+|    ![登录页](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165411.png)    | ![首页](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165545.png)      |
+| :----------------------------------------------------------------------------------: | --------------------------------------------------------------------------------- |
+|   ![用户管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165623.png)   | ![分组管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165701.png)  |
+| ![字段关系管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165853.png) | ![菜单管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_165954.png)  |
+|   ![接口管理](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_170015.png)   | ![操作日志](https://cdn.jsdelivr.net/gh/eryajf/tu/img/image_20220724_170035.png)  |
+|  ![swag](https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240521_213841.png)   | ![swag](https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240521_214025.png) |
 
 ## 👨‍💻 项目地址
 
@@ -79,8 +82,20 @@
 
 > **说明：**
 >
-> - 本项目的部署与使用需要你对OpenLDAP有一定的掌握，如果想要配置IM同步，可能还需要一定的go基础来调试(如有异常时)。
+> - 本项目的部署与使用需要你对 OpenLDAP 有一定的掌握，如果想要配置 IM 同步，可能还需要一定的 go 基础来调试(如有异常时)。
 > - 文档已足够详尽，所有文档已讲过的，将不再提供免费的服务。如果你在安装部署时遇到问题，可通过[付费服务](http://ldapdoc.eryajf.net/pages/7eab1c/)寻求支持。
+
+## 🤝 赞助商
+
+[![](https://raw.githubusercontent.com/eryajf/tu/main/img/image_20240730_083723.webp)](https://302.ai/)
+
+> [302.AI](https://302.ai) 是一个汇集全球顶级品牌的 AI 超市，按需付费，零月费，零门槛使用各种类型 AI。
+>
+> - [点击注册](https://gpt302.saaslink.net/fGvlvo): 立即获得 1PTC(1PTC=1 美金，约为 7 人民币)代币。
+> - 功能全面: 将最好用的 AI 集成到在平台之上，包括不限于 AI 聊天，图片生成，图片处理，视频生成，全方位覆盖。
+> - 简单易用: 提供机器人，工具和 API 多种使用方法，可以满足从小白到开发者多种角色的需求。
+> - 按需付费，零门槛: 不提供月付套餐，对产品不设任何门槛，按需付费，全部开放。充值余额永久有效。
+> - 管理者和使用者分离：管理者一键分享，使用者无需登录。使用者无需关心复杂的 AI 设置，让懂 AI 的人来配置，简化使用流程。
 
 ## 🥰 感谢
 
@@ -99,6 +114,7 @@
 
 - 另外感谢
   - [go-web-mini](https://github.com/gnimli/go-web-mini)：项目基于该项目重构而成，感谢作者的付出。
+  - 感谢 [nangongchengfeng](https://github.com/nangongchengfeng) 提交的 [swagger](https://github.com/eryajf/go-ldap-admin/pull/345) 功能。
 
 ## 🤗 另外
 
@@ -152,20 +168,27 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/nangongchengfeng">
+            <img src="https://avatars.githubusercontent.com/u/46562911?v=4" width="100;" alt="nangongchengfeng"/>
+            <br />
+            <sub><b>南宫乘风</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/huxiangquan">
             <img src="https://avatars.githubusercontent.com/u/52623921?v=4" width="100;" alt="huxiangquan"/>
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/0x0034">
             <img src="https://avatars.githubusercontent.com/u/39284250?v=4" width="100;" alt="0x0034"/>
             <br />
             <sub><b>0x0034</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Pepperpotato">
             <img src="https://avatars.githubusercontent.com/u/49708116?v=4" width="100;" alt="Pepperpotato"/>
@@ -185,13 +208,6 @@
             <img src="https://avatars.githubusercontent.com/u/16368382?v=4" width="100;" alt="ckyoung123421"/>
             <br />
             <sub><b>Ckyoung123421</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/nangongchengfeng">
-            <img src="https://avatars.githubusercontent.com/u/46562911?v=4" width="100;" alt="nangongchengfeng"/>
-            <br />
-            <sub><b>南宫乘风</b></sub>
         </a>
     </td></tr>
 </table>
